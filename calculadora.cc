@@ -21,14 +21,14 @@ int main(){
 			cin>>segundoOperando;
 			
 			if(queOperacion=='s'){
-				resultadoFinal = primerOperando * segundoOperando;
+				resultadoFinal = primerOperando + segundoOperando;
 				
 			}else if(queOperacion=='r'){
-				resultadoFinal = primerOperando * segundoOperando;
+				resultadoFinal = primerOperando - segundoOperando;
 			}else if(queOperacion=='m'){
 				resultadoFinal = primerOperando * segundoOperando;
 			}else if(queOperacion=='d'){
-				resultadoFinal = primerOperando * segundoOperando;
+				resultadoFinal = primerOperando / segundoOperando;
 			}
 			if(segundoOperando == 0 && queOperacion == 'd'){
 				cout<<"El resultado de una división entre 0 es indefinido."<<endl;
