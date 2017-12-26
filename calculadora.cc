@@ -37,7 +37,7 @@ int main(){
 				myfile.open("resultado.txt");
 				myfile << "Tu resultado es "<<resultadoFinal;
 				myfile.close();
-				cout<<"Su resultado final es: "<< resultadoFinal<<endl;
+				cout<<"Su resultado final es el siguiente: "<< resultadoFinal<<endl;
 			}
 		}else{
 			cout<<"Carácter no reconocido."<<endl;
