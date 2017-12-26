@@ -10,7 +10,7 @@ int main(){
 	float resultadoFinal;
 	
 	while(true){
-		cout<<"Introduzca lo que quiere realizar: s=suma, r=resta, m=multiplicacion, d=division, e=exit"<<endl;
+		cout<<"Introduce lo que quiere realizar: s=suma, r=resta, m=multiplicacion, d=division, e=exit"<<endl;
 		cin>>queOperacion;
 		if(queOperacion=='e'){
 			break;
